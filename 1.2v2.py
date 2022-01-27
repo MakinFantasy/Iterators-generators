@@ -24,5 +24,5 @@ if __name__ == '__main__':
         [1, 2, None],
     ]
 
-    for item in FlatIterator(nested_list):
-        print(item)
+    nested_list_elements = [item for item in FlatIterator(nested_list)]
+    print(nested_list_elements)
